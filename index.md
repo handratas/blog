@@ -1,4 +1,4 @@
-## Hi
+# Hi
 
 I'm Handrata, an App Developer since 2013. Currently enjoying creating Android App using Kotlin.
 
