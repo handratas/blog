@@ -30,7 +30,7 @@ Using his vocabulary, there are at least five types of Test Doubles:
 - [Dummy Object](#dummy-object)
 
 #### Test Stub
-A test double that verify [indirect inputs](/indirect-inputs) of SUT with the condition `inputs` is given by tester.
+A test double that verify [indirect inputs](indirect-inputs.md) of SUT with the condition `inputs` is given by tester.
 
 #### Mock Object 
 A test double that verify indirect outputs of SUT with the condition `inputs(optional) & outputs` is given by tester.
