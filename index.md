@@ -47,5 +47,3 @@ For example:
 - Null 
 - "Ignored String"
 - new `Object`()
-
-
