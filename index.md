@@ -20,7 +20,7 @@ In essence you follow three simple steps repeatedly:
 3. Refactor both new and old code **UNTIL** it become well structured.
 
 ### Test Double
-Test double is a general term used by `Gerard Meszaros` to describe any kind of pretend object used in place of a real object for testing purposes.
+Test double is a general term used by `Gerard Meszaros: xUnit Test Patterns: Refactoring Test Code` to describe any kind of pretend object used in place of a real object for testing purposes.
 Using his vocabulary, there are at least five types of Test Doubles:
 - Test Stub
 - Mock Object
