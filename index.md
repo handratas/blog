@@ -2,7 +2,9 @@
 
 I'm Handrata, an experienced App Developer since 2013. Currently enjoying creating Android App using Kotlin.
 
-Often times it's hard to separate time between work, family and pursuing knowledge. So, I want to make a note to myself and hopefully others.
+Often times it's hard to separate time between work, family and pursuing knowledge. So, I want to make a note to myself and hopefully useful to others as well.
+
+Add me in [LinkedIn](https://www.linkedin.com/in/handrata-samsul-1517904b/)
 
 Article List:
 - Test
@@ -22,11 +24,29 @@ In essence you follow three simple steps repeatedly:
 ### Test Double
 Test double is a general term used by `Gerard Meszaros: xUnit Test Patterns: Refactoring Test Code` to describe any kind of pretend object used in place of a real object for testing purposes.
 Using his vocabulary, there are at least five types of Test Doubles:
-- Test Stub
-- Mock Object
-- Test Spy
-- Fake Object
-- Dummy Object
+- [Test Stub](#test-stub)
+- [Mock Object](#mock-object)
+- [Test Spy](#test-spy)
+- [Fake Object](#fake-object)
+- [Dummy Object](#dummy-object)
 
-#### Mock vs Stub
+#### Test Stub
+A test double that verify indirect inputs of SUT with the condition `inputs` is given by tester.
+
+#### Mock Object 
+A test double that verify indirect outputs of SUT with the condition `inputs(optional) & outputs` is given by tester.
+
+#### Test Spy
+A test double that verify indirect outputs of SUT with the condition `inputs(optional)` is given by tester.
+
+#### Fake Object
+A test double that help run (unrunnable) tests (faster).
+
+#### Dummy Object
+A test double that is only used as attribute or method parameter.
+For example: 
+- Null, 
+- "Ignored String"
+- new `Object`()
+
 
