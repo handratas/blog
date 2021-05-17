@@ -30,13 +30,13 @@ Using his vocabulary, there are at least five types of Test Doubles:
 - [Dummy Object](#dummy-object)
 
 #### Test Stub
-A test double that verify [indirect inputs](https://handratas.github.io/blog/indirect-inputs) of SUT with the condition `inputs` is given by tester.
+A test double that verify [indirect inputs](https://handratas.github.io/blog/indirect-input) of SUT with the condition `inputs` is given by tester.
 
 #### Mock Object 
-A test double that verify [indirect outputs](https://handratas.github.io/blog/indirect-outputs) of SUT with the condition `inputs(optional) & outputs` is given by tester.
+A test double that verify [indirect outputs](https://handratas.github.io/blog/indirect-output) of SUT with the condition `inputs(optional) & outputs` is given by tester.
 
 #### Test Spy
-A test double that verify [indirect outputs](https://handratas.github.io/blog/indirect-outputs) of SUT with the condition `inputs(optional)` is given by tester.
+A test double that verify [indirect outputs](https://handratas.github.io/blog/indirect-output) of SUT with the condition `inputs(optional)` is given by tester.
 
 #### Fake Object
 A test double that help run (unrunnable) tests (faster).
