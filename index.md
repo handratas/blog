@@ -8,6 +8,7 @@ Add me in [LinkedIn](https://www.linkedin.com/in/handrata-samsul-1517904b/)
 
 Article List:
 - [Test](#test)
+- [Android Integration Test](https://handratas.github.io/blog/android-integration-test)
 - [Framework vs Library](https://handratas.github.io/blog/framework-vs-library)
 
 ## Test
