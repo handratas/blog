@@ -1,5 +1,11 @@
 # Android Integration Test
 
+## Fragment Dependency
+When you can't use constructor dependency injection, for example to launch a fragment, you can often use:
+- A service locator. The Service Locator pattern is an alternative to Dependency Injection. It involves creating a singleton class called the "Service Locator", whose purpose is to provide dependencies, both for the regular and test code. [source](https://developer.android.com/codelabs/advanced-android-kotlin-training-testing-test-doubles)
+- Create custom `Fragment Factory` [FragmentFactory](https://developer.android.com/guide/fragments/fragmentmanager#dependencies) & [Test your Fragment Guide](https://developer.android.com/guide/fragments/test)
+
+
 ## Espresso Library
 Espresso helps you:
 
