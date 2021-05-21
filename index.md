@@ -13,6 +13,12 @@ Article List:
 
 ## Test
 
+### Test Type
+- Unit Test: Unit tests are focused and fast.
+- Integration Test: verify interaction between parts of your program.
+- End-to-end tests: tests verify features, have the highest fidelity, are often instrumented, and may take longer to run.
+Unit tests are focused and fast. Integration tests verify interaction between parts of your program. End-to-end tests verify features, have the highest fidelity, are often instrumented, and may take longer to run.
+
 ### Test-Driven Development (TDD) 
 TDD is a technique for building software that guides software development by writing tests.
 
