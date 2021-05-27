@@ -7,6 +7,6 @@ Often times it's hard to separate time between work, family and pursuing knowled
 Add me in [LinkedIn](https://www.linkedin.com/in/handrata-samsul-1517904b/)
 
 Article List:
-- [Test](https://handratas.github.io/blog/test)
+- [Test](https://handratas.github.io/blog/programming-test)
 - [Android Integration Test](https://handratas.github.io/blog/android-integration-test)
 - [Framework vs Library](https://handratas.github.io/blog/framework-vs-library)
