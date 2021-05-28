@@ -28,3 +28,13 @@ Index:
 - In every case, the best option is for the development organization to recognize and avoid its own overconfidence and to start taking the quality of its software architecture seriously.
 
 # <a name="chapter2"></a>2. A Tale of Two Values
+- Every software system provides two different values to the stakeholders: **behavior** and **structure(architecture)**.
+- Software developers are responsible for ensuring that both **those** values remain high. Often times we focus on one to the exclusion of the other or even more the lesser of the two values.
+
+## Behavior
+- Programmers are hired to make machines behave in a way that makes or saves money for the stakeholders. 
+- We do this by helping the stakeholders develop a functional specification, or requirements document. 
+- Then we write the code that causes the stakeholder’s machines to satisfy those requirements. When the machine violates those requirements, we debug and fix the problem.
+
+## Architecture
+
