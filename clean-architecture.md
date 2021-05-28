@@ -44,7 +44,7 @@ Index:
 
 ## The Greater Value? Behavior or Architecture?
 - If you ask **business managers**, they’ll often say that it’s more important for the software system to work **(behavior)**.
-- If you ask **developers**, often go along with this attitude even if they should be saying **architecture**, because:
+- If you ask **developers**, often go along with business managers even if they should be saying **architecture**, because:
 - - If you give me a program that works perfectly but is impossible to change, then it won’t work when the requirements change, and I won’t be able to make it work. Therefore the program will become useless.
 - - If you give me a program that does not work but is easy to change, then I can make it work,
 and keep it working as requirements change. Therefore the program will remain continually useful.
