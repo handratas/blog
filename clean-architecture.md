@@ -28,7 +28,7 @@ Index:
 - In every case, the best option is for the development organization to recognize and avoid its own overconfidence and to start taking the quality of its software architecture seriously.
 
 # <a name="chapter2"></a>2. A Tale of Two Values
-- Every software system provides two different values to the stakeholders: **behavior** and **structure(architecture)**.
+- Every software system provides two different values to the stakeholders: **behavior(function)** and **structure(architecture)**.
 - Software developers are responsible for ensuring that both **those** values remain high. Often times we focus on one to the exclusion of the other or even more the lesser of the two values.
 
 ## Behavior
@@ -37,4 +37,18 @@ Index:
 - Then we write the code that causes the stakeholder’s machines to satisfy those requirements. When the machine violates those requirements, we debug and fix the problem.
 
 ## Architecture
+- Software was invented to be “soft.” It must be **easy** to change the behavior of machines. When the stakeholders change their minds about a feature, that change should be simple and easy to make.
+- If we think `new requirement` from stakeholders as a shape, architectures should be as shape agnostic are practical.
+- The difficulty in making such a change should be proportional only to the scope of the change, and not to the shape of the change.
+- Bad architecture signs: software developers often feel putting new requirement to existing feature as if they are forced to jam square pegs into round holes.
+
+## The Greater Value? Behavior or Architecture?
+- If you ask **business managers**, they’ll often say that it’s more important for the software system to work **(behavior)**.
+- If you ask **developers**, often go along with this attitude even if they should be saying **architecture**, because:
+- - If you give me a program that works perfectly but is impossible to change, then it won’t work when the requirements change, and I won’t be able to make it work. Therefore the program will become useless.
+- - If you give me a program that does not work but is easy to change, then I can make it work,
+and keep it working as requirements change. Therefore the program will remain continually useful.
+- Even if there's no such thing as a program that is impossible to change, they could be *practically* impossible due to cost of change exceeds the benefits of change.
+
+## Eisenhower's Matrix
 
