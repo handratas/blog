@@ -1,19 +1,21 @@
 # [Clean Architecture](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook-dp-B001GSTOAM/dp/B001GSTOAM) by Uncle Bob: Summary
 Index:
-- [1. What is Design & Architecture](#chapter1)
-- [2. A Tale of Two Values](#chapter2)
+- [1. Introduction](#part1)
+- - [Chapter 1 - What is Design & Architecture](#chapter1)
+- - [Chapter 2 - A Tale of Two Values](#chapter2)
 
-# <a name="chapter1"></a>1. What is Design & Architecture
+# <a name="part1"></a>1. Introduction
+## <a name="chapter1"></a>Chapter 1 - What is Design & Architecture
 - There is no difference between them. None at all. 
 - The word “architecture” is often used in the context of something at a high level that is divorced from the lower-level details.
 - “Design” more often seems to imply structures and decisions at a lower level. But this usage is nonsensical when you look at what a real architect does(Those low- level details and high-level decisions are part of the whole design of the house).
 - So is with software design, you can't have one without the other. There is simply a continuum of decisions from  the highest to lowest levels.
 
-## The Goal 
+### The Goal 
 - The goal of software architecture is to minimize human resources required to build and maintain the required system. 
 - If that effort is low, and **STAYS LOW** throughout the lifetime of the system, the design is good. If that **EFFORT GROWS** with each new release, the design is bad. It’s as simple as that.
 
-## Bullet Points
+### Bullet Points
 - The only way to go fast, is to go well. 
 - Like the story of the Tortoise and the Hare :
 - - "Slow and steady wins the race."
@@ -24,31 +26,54 @@ Index:
 - Familiar lie: "We can clean it up later; we just have to get to market first!"
 - The fact is that making messes is always slower than staying clean, no matter which time scale you are using.
 
-## Conclusion
+### Conclusion
 - In every case, the best option is for the development organization to recognize and avoid its own overconfidence and to start taking the quality of its software architecture seriously.
 
-# <a name="chapter2"></a>2. A Tale of Two Values
+## <a name="chapter2"></a>1. 2. A Tale of Two Values
 - Every software system provides two different values to the stakeholders: **behavior(function)** and **structure(architecture)**.
 - Software developers are responsible for ensuring that both **those** values remain high. Often times we focus on one to the exclusion of the other or even more the lesser of the two values.
 
-## Behavior
+### Behavior
 - Programmers are hired to make machines behave in a way that makes or saves money for the stakeholders. 
 - We do this by helping the stakeholders develop a functional specification, or requirements document. 
 - Then we write the code that causes the stakeholder’s machines to satisfy those requirements. When the machine violates those requirements, we debug and fix the problem.
 
-## Architecture
+### Architecture
 - Software was invented to be “soft.” It must be **easy** to change the behavior of machines. When the stakeholders change their minds about a feature, that change should be simple and easy to make.
 - If we think `new requirement` from stakeholders as a shape, architectures should be as shape agnostic are practical.
 - The difficulty in making such a change should be proportional only to the scope of the change, and not to the shape of the change.
 - Bad architecture signs: software developers often feel putting new requirement to existing feature as if they are forced to jam square pegs into round holes.
 
-## The Greater Value? Behavior or Architecture?
+### The Greater Value? Behavior or Architecture?
 - If you ask **business managers**, they’ll often say that it’s more important for the software system to work **(behavior)**.
-- If you ask **developers**, often go along with business managers even if they should be saying **architecture**, because:
+- If you ask **developers**, they often go along with business managers even if they should be saying **architecture**, because:
 - - If you give me a program that works perfectly but is impossible to change, then it won’t work when the requirements change, and I won’t be able to make it work. Therefore the program will become useless.
 - - If you give me a program that does not work but is easy to change, then I can make it work,
 and keep it working as requirements change. Therefore the program will remain continually useful.
 - Even if there's no such thing as a program that is impossible to change, they could be *practically* impossible due to cost of change exceeds the benefits of change.
 
-## Eisenhower's Matrix
+### Eisenhower's Matrix
+`I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent.`
+
+![Eisenhower's Matrix](https://user-images.githubusercontent.com/12756891/120153338-ce3c6400-c218-11eb-99bf-8acba8b7c36b.png "Eisenhower's Matrix")
+
+There is a great deal of truth to this old adage. Those things that are urgent are rarely of great importance, and those things that are important are seldom of great urgency.
+- The first value of software—behavior—is urgent but not always particularly important.
+- The second value of software—architecture—is important but never particularly urgent.
+
+We can arrange these four couplets into priorities:
+1. Urgent and important
+2. Not urgent and important (Architecture)
+3. Urgent and not important (Behavior)
+4. Not urgent and not important
+
+Note that Architecture is in 2nd position, and Behavior is 3rd position. \
+**And the mistake** is that business managers and developers often make is to elevate items in position 3 to position 1. \
+It is the responsibility of the software development team to assert the importance of architecture over the urgency of features.
+
+### Fight For The Architecture
+- Fulfilling this responsibility means wading into a fight—or perhaps a better word is "struggle". The development team has to struggle for what they believe to be best for the company(architecture), and so do the management team, and the marketing team, and the sales team, and the operations team. *It’s always a struggle.*
+- Remember, as a software developer, you are a stakeholder. You have a stake in the software that you need to safeguard. That’s part of your role, and part of your duty. **And it’s a big part of why you were hired.**
+- This challenge is doubly important if you are a software architect. Software architects are, by virtue of their job description, more focused on the structure of the system than on its features and functions. Architects create an architecture that allows those features and functions to be easily developed, easily modified, and easily extended.
+- Just remember: If architecture comes last, then the system will become ever more costly to develop, and eventually change will become practically impossible for part or all of the system. If that is allowed to happen, it means the software development team did not fight hard enough for what they knew was necessary.
 
