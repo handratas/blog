@@ -116,3 +116,4 @@ To date, there have been three such paradigms:
 - Notice how well those three align with the three big concerns of architecture: **function, separation of components, and data management.**
 
 ## <a name="chapter4"></a>Chapter 4 - Structured Programming
+
