@@ -31,7 +31,7 @@ Index:
 ### Conclusion
 - In every case, the best option is for the development organization to recognize and avoid its own overconfidence and to start taking the quality of its software architecture seriously.
 
-## <a name="chapter2"></a>1. 2. A Tale of Two Values
+## <a name="chapter2"></a>Chapter 2 - A Tale of Two Values
 - Every software system provides two different values to the stakeholders: **behavior(function)** and **structure(architecture)**.
 - Software developers are responsible for ensuring that both **those** values remain high. Often times we focus on one to the exclusion of the other or even more the lesser of the two values.
 
