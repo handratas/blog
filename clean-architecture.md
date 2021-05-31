@@ -3,6 +3,8 @@ Index:
 - [1. Introduction](#part1)
 - - [Chapter 1 - What is Design & Architecture](#chapter1)
 - - [Chapter 2 - A Tale of Two Values](#chapter2)
+- [2. Starting with the Bricks: Programming Paradigms](#part2)
+- - [Chapter 3 - Paradigm Overview](#chapter3)
 
 # <a name="part1"></a>1. Introduction
 ## <a name="chapter1"></a>Chapter 1 - What is Design & Architecture
@@ -77,3 +79,12 @@ It is the responsibility of the software development team to assert the importan
 - This challenge is doubly important if you are a software architect. Software architects are, by virtue of their job description, more focused on the structure of the system than on its features and functions. Architects create an architecture that allows those features and functions to be easily developed, easily modified, and easily extended.
 - Just remember: If architecture comes last, then the system will become ever more costly to develop, and eventually change will become practically impossible for part or all of the system. If that is allowed to happen, it means the software development team did not fight hard enough for what they knew was necessary.
 
+# <a name="part2"></a>2. Starting with the Bricks: Programming Paradigms
+Paradigms are ways of programming, relatively unrelated to languages. A paradigm tells you which programming structures to use, and when to use them.
+
+To date, there have been three such paradigms: 
+- Structured Programming
+- Object-Oriented Programming
+- Functional Programming
+
+## <a name="chapter3"></a>Chapter 3 - Paradigm Overview
