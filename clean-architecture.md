@@ -5,6 +5,7 @@ Index:
 - - [Chapter 2 - A Tale of Two Values](#chapter2)
 - [2. Starting with the Bricks: Programming Paradigms](#part2)
 - - [Chapter 3 - Paradigm Overview](#chapter3)
+- - [Chapter 4 - Structured Programming](#chapter4)
 
 # <a name="part1"></a>1. Introduction
 ## <a name="chapter1"></a>Chapter 1 - What is Design & Architecture
@@ -88,3 +89,30 @@ To date, there have been three such paradigms:
 - Functional Programming
 
 ## <a name="chapter3"></a>Chapter 3 - Paradigm Overview
+### Structured Programming
+- The first paradigm to be adopted (not the first to be invented), discovered by `Edsger Wybe Dijkstra` in 1968.
+- It emerged in the late 1950s with the appearance of the ALGOL 58 and ALGOL 60 programming languages.(not discovered yet) [source](https://en.wikipedia.org/wiki/Structured_programming)
+- **Structured programming imposes dicipline on direct transfer of control.**
+
+### Object-Oriented Programming
+- Discovered in 1966 (2 years before Structured Programming discovered) by Ole Johan Dahl and Kristen Nygaard.
+- These two programmers noticed that the function call stack frame in the ALGOL language could be moved to a heap, thereby allowing local variables declared by a function to exist long after the function returned. The function became a constructor for a class, the local variables became instance variables, and the nested functions became methods. This led inevitably to the discovery of polymorphism through the disciplined use of function pointers.
+- **Object-oriented programming imposes discipline on indirect transfer of control.**
+
+### Functional Programming
+- First to be invented in 1936 by Alonzo Church who invented l-calculus. L-calculus is the foundation of LISP language in 1958 by John McCarthy. A foundation notion of l-calculus is **immutability**-that is, notion that the values of symbols do not change. This also effectively means a functional languange has no assignment statement(most of functional language do have some means to alter value of a variable, but only under very strict dicipline).
+- **Functional programming imposes discipline upon assignment.**
+
+### Food For Thought
+- Notice each of the paradigm *removes* capabilities from the programmer and none of them adds new capabilities. 
+- Each imposes some kind of extra *dicipline* that is negative in its intent. The paradigm tell us what *not to do*, more than they tell us what *to do*.
+- The three paradigm together remove ***goto* statements**, **function pointers**, and **assignment**.
+- Is there anything left to take? In the many decades that have followed, no new paradigm have been added. It can means these 3 paradigms are likely to be the only three we will see.
+
+### Conclusion
+- We use polymorphism as the mechanism to cross architectural boundaries. 
+- We use functional programming to impose discipline on the location of and access to data.
+- We use structured programming as the algorithmic foundation of our modules.
+- Notice how well those three align with the three big concerns of architecture: **function, separation of components, and data management.**
+
+## <a name="chapter4"></a>Chapter 4 - Structured Programming
