@@ -116,4 +116,13 @@ To date, there have been three such paradigms:
 - Notice how well those three align with the three big concerns of architecture: **function, separation of components, and data management.**
 
 ## <a name="chapter4"></a>Chapter 4 - Structured Programming
+- Edsger Wybe Dijkstra was born in Rotterdam in 1930.
+- In 1948, he graduated from high school with the highest possible marks in math, physics, chemistry, and biology.
+- In March 1952, at the age of 21 (and just 9 months before I was born), Dijkstra took a job with the Mathematical Center of Amsterdam as the Netherlands’ very first programmer.
+- In 1955, having been a programmer for three years, and while still a student, Dijkstra concluded that the intellectual challenge of programming was greater than the intellectual challenge of theoretical physics. As a result, he chose programming as his long-term career.
+- As part of deciding to make programming his career, Dijkstra conferred with his boss, Adriaan van Wijngaarden. Dijkstra was concerned that no one had identified a discipline, or science, of programming, and that he would therefore not be taken seriously. 
+- Dijkstra started his career in the era of vacuum tubes, when computers were huge, fragile, slow, unreliable, and (by today’s standards) extremely limited. In those early years, programs were written in binary, or in very crude assembly language. Input took the physical form of paper tape or punched cards. The edit/compile/test loop was hours—if not days—long.
+- It was in this primitive environment that Dijkstra made his great discoveries.
+
+### Proof
 
