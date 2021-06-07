@@ -34,7 +34,7 @@ Index:
 
 ## <a name="chapter2"></a>Chapter 2 - A Tale of Two Values
 - Every software system provides two different values to the stakeholders: **behavior(function)** and **structure(architecture)**.
-- Software developers are responsible for ensuring that both **those** values remain high. Often times we focus on one to the exclusion of the other or even more the lesser of the two values.
+- Software developers are responsible for ensuring that **both** those values remain high. Often times we focus on one to the exclusion of the other or even more the lesser of the two values.
 
 ### Behavior
 - Programmers are hired to make machines behave in a way that makes or saves money for the stakeholders. 
