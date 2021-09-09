@@ -1,4 +1,4 @@
-# [Code Smells]
+# Code Smells
 Index:
 - [1. Introduction](#part1)
 - - [Chapter 1 - What is Code smells](#chapter1)
