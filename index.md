@@ -10,3 +10,4 @@ Article List:
 - [Android Integration Test](https://handratas.github.io/blog/android-integration-test)
 - [Framework vs Library](https://handratas.github.io/blog/framework-vs-library)
 - [Clean Architecture](https://handratas.github.io/blog/clean-architecture)
+- [Code Smells](https://handratas.github.io/blog/code-smells)
