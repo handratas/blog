@@ -42,3 +42,5 @@ For example:
 - Null 
 - "Ignored String"
 - new `Object`()
+
+## F.I.R.S.T(Fast, Independent, Repeatable, Self-Validating, Timely)
